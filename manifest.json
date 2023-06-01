@@ -1,0 +1,19 @@
+{
+  "name": "TabHabit",
+  "description": "",
+  "version": "0.0.2",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TabHabit"
+  },
+  "permissions": ["storage", "tabs"],
+  "icons": {
+    "16": "logo-16.png",
+    "48": "logo-48.png",
+    "128": "logo-128.png"
+  }
+}
